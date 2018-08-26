@@ -1,0 +1,4 @@
+FROM tomcat:8.5-alpine
+MAINTAINER gailo22@gmail.com
+
+COPY ../hello-service/target/hello-service.war /usr/local/tomcat/webapps/
